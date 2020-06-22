@@ -72,7 +72,7 @@ In addition the variable cannot be reassigned to a different value.
     console.log(PI);
 } //block 1
 {
-    console.log(PI);
+    //console.log(PI);
 } //block 2
 
 
@@ -95,12 +95,12 @@ In addition the variable cannot be reassigned to a different value.
     const a = [1,2,3];
     const b = {name: "hello"};
     
-    name="Joe"; 
-   //this will throw an error, since we are attempting to re-assign "name" to a different value.
-    PI = PI + 1; 
-   //this will throw an error, since we are attempting to re-assign PI to a different value.
-    a = [1,2,3,4,5];
-   //this will throw an error, since we are attempting to re-assign "a" to a different value.
-    b = {name: "hello"};
-   //this will throw an error, since we are attempting to re-assign "b" to a different value.
+    //name="Joe"; 
+        //this will throw an error, since we are attempting to re-assign "name" to a different value.
+    //PI = PI + 1; 
+        //this will throw an error, since we are attempting to re-assign PI to a different value.
+   // a = [1,2,3,4,5];
+        //this will throw an error, since we are attempting to re-assign "a" to a different value.
+   // b = {name: "hello"};
+        //this will throw an error, since we are attempting to re-assign "b" to a different value.
    }
