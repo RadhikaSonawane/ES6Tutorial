@@ -20,4 +20,11 @@ console.log(`My fav programming laguage is ${top1} and second fev laguage is ${t
 let [top1, top2, ...toprest] = myProgramingLanguage;
 console.log(`I am good at ${top1} and want to improve ${toprest}.`); 
 
+// program to swap two numbers without third variable.
+let e=5; 
+let f=10;
+[e, f] = [f, e];
+
+console.log('e:', e, 'f:', f); 
+
 
